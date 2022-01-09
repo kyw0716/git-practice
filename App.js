@@ -33,7 +33,7 @@ function App() {
     <div>
       <h1>The Coins!! ({coins.length})</h1>
       {!load ? 
-        <strong>Loading..</strong> : 
+        <strong>Loading...</strong> : 
         <select onChange={onChange}>
           {coins.map((coin) => 
           <option 
